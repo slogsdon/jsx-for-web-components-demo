@@ -1,0 +1,19 @@
+{
+  "name": "web-components-with-jsx",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c config/rollup.js"
+  },
+  "dependencies": {
+    "jsx-for-web-components": "^1.0.0"
+  },
+  "devDependencies": {
+    "rollup": "^0.68.1",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-typescript2": "^0.18.1",
+    "typescript": "^3.2.2"
+  }
+}
